@@ -11,6 +11,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: node:20-slim  # Use a Docker image with Node.js 20
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
@@ -21,6 +23,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run tests
         run: python -m unittest discover -s tests
+
 
   deploy:
     needs: build
