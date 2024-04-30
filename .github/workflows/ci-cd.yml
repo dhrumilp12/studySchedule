@@ -7,14 +7,14 @@ on:
   pull_request:
     branches:
       - '*'
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 # Updated to latest version
+      - uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v4 # Updated to latest version
+        uses: actions/setup-python@v4
         with:
           python-version: '3.8'
       - name: Install dependencies
@@ -27,6 +27,6 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 # Ensure to use the same version in all steps
+      - uses: actions/checkout@v3
       - name: Deploy to production
         run: echo "Deploy scripts or commands go here"
