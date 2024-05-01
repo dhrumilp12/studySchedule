@@ -10,16 +10,16 @@ To set up the project locally, follow these steps:
 2. Navigate to the project directory: cd study-schedule
 3. Install dependencies: pip install -r requirements.txt
    
-4. 
+
 ## Usage
 To run the application: python app.py
 
-5.
+
 ## Testing
 Execute tests by running:
 python -m unittest discover -s tests
 
-6.
+
 ## Contributing
 To contribute to this project, please fork the repository and submit a pull request.
 
