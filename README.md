@@ -23,6 +23,13 @@ python -m unittest discover -s tests
 ## Contributing
 To contribute to this project, please fork the repository and submit a pull request.
 
+
+## Deployment --- There is no file or directory named '.env' and '/scripts'
+To deploy the application, follow these steps:
+1. Set the necessary environment variables as described in `.env.example`.
+2. Use the deployment script located in the `/scripts` directory:
+
+
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
 
