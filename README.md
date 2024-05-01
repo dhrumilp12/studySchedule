@@ -26,7 +26,7 @@ python -m unittest discover -s tests
 To contribute to this project, please fork the repository and submit a pull request.
 
 
-## Deployment --- There is no file or directory named '.env' and '/scripts' for future use.
+## Deployment --- There is no file or directory named '.env' and '/scripts', for future use.
 To deploy the application, follow these steps:
 1. Set the necessary environment variables as described in `.env.example`.
 2. Use the deployment script located in the `/scripts` directory:
