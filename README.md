@@ -41,7 +41,7 @@ Download and install the Heroku CLI.
 If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
 
 $ heroku login
-Clone the repository
+/nClone the repository
 Use Git to clone study-schedular's source code to your local machine.
 
 $ heroku git:clone -a study-schedular 
