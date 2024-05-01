@@ -56,7 +56,7 @@ $ git push heroku master
 ## Live Application
 The application is currently deployed and can be accessed at the following URL:
 
-Study Scheduler: study-schedular-d814462ae5eb.herokuapp.com
+Study Scheduler: [study-schedular-d814462ae5eb.herokuapp.com](https://study-schedular-d814462ae5eb.herokuapp.com/)
 Visit the link to interact with the live version of the Study Scheduler application.
 
 ## License
