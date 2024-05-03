@@ -69,4 +69,4 @@ Visit the link to interact with the live version of the Study Scheduler applicat
 This project is released under the MIT License. See the LICENSE file for details.
 
 
-
+##Created with ❤️ by Dhrumil
